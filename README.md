@@ -74,6 +74,7 @@ Estructura de archivos decidida antes de programar:
 
 - `docs`: add project README
 - `chore`: initialize project with Vitest
+- `feat`: add project structure
 - `test`: add test for number divisible by 3 returns Fizz
 - `test`: add test for number divisible by 5 returns Buzz
 - `test`: add test for number divisible by 3 and 5 returns FizzBuzz
