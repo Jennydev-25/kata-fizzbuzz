@@ -28,3 +28,11 @@ describe('FizzBuzz', () => {
     const result = checkNumber(n);
     expect(result).toBe(expected);
   });
+
+  // Escenario 4: Número no divisible por 3 ni por 5, resultado esperado el número como string
+  it('should return the number as string when not divisible by 3 or 5', () => {
+    const n = 7;
+    const expected = '7';
+    const result = checkNumber(n);
+    expect(result).toBe(expected);
+  });

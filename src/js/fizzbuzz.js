@@ -5,4 +5,6 @@ export function checkNumber(n) {
   if (n % 3 === 0) return 'Fizz';
   // Divisible por 5, devuelve "Buzz"
   if (n % 5 === 0) return 'Buzz';
+  // No divisible por 3 ni por 5, devuelve el número como string
+  return String(n);
 }
