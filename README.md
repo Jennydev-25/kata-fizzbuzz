@@ -90,7 +90,13 @@ Estructura de archivos decidida antes de programar:
 - `chore`: install and configure sass
 - `feat`: add HTML base structure
 - `feat`: add app.js DOM renderer
-- `style`: add SASS styles with BEM methodology
+- `docs`: update README with sass commits
+- `style`: add SASS variables
+- `style`: add base styles and reset
+- `style`: add header styles
+- `style`: add checker section styles
+- `style`: add sequence section styles
+- `style`: add footer styles
 - `docs`: add final screenshot to README
 
 ----------
