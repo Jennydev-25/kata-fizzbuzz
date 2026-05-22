@@ -1,0 +1,17 @@
+{
+  "name": "kata-fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Jennydev-25",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test-cover": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.7"
+  }
+}
