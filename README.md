@@ -106,7 +106,7 @@ Estructura de archivos decidida antes de programar:
 - `docs`: update README with modular sass structure
 - `style`: add sequence section styles
 - `style`: add footer styles
-- `docs`: add final screenshot to READMEgit checkout -b style/sass-checker
+- `docs`: add final screenshot to README
 
 ----------
 
@@ -127,6 +127,12 @@ Cinco escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 ## 📸 Test Explorer
 
 ![Test Explorer](assets/imgs/test-explorer.png)
+
+----------
+
+## 📸 Resultado final
+
+![Final screenshot](assets/imgs/final-screenshot.png)
 
 ----------
 
