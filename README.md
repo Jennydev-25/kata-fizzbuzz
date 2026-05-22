@@ -53,18 +53,26 @@ Estructura de archivos decidida antes de programar:
 
 **Fase 1 — Lógica y tests:**
 
-- **`tests/`** → tests unitarios con Vitest
 - **`src/js/`** — lógica dividida por responsabilidad:
   - `fizzbuzz.js` → función `checkNumber()`, lógica core
   - `sequence.js` → generador de la secuencia 1-100
-- **`assets/imgs/`** — capturas del proyecto
 - **`main.js`** — entrada por consola
+- **`tests/`** → tests unitarios con Vitest
+- **`assets/imgs/`** — capturas del proyecto
+
 
 **Fase 2 — Interfaz visual:**
 
 - **`index.html`** — marcado semántico HTML5
 - **`app.js`** — lógica del formulario y renderizado de la secuencia en el DOM
-- **`src/sass/`** → estilos con metodología BEM
+- **`src/sass/`** → estilos modulares con metodología BEM:
+  - `styles.scss` → punto de entrada, solo `@use`
+  - `_variables.scss` → colores, fuentes y breakpoints
+  - `_base.scss` → reset y estilos globales
+  - `_header.scss` → estilos del header
+  - `_checker.scss` → estilos del formulario y resultado
+  - `_sequence.scss` → estilos de las tarjetas
+  - `_footer.scss` → estilos del footer
 - **`src/css/`** → CSS compilado desde SASS (generado automáticamente)
 
 ----------
@@ -95,6 +103,7 @@ Estructura de archivos decidida antes de programar:
 - `style`: add base styles and reset
 - `style`: add header styles
 - `style`: add checker section styles
+- `docs`: update README with modular sass structure
 - `style`: add sequence section styles
 - `style`: add footer styles
 - `docs`: add final screenshot to READMEgit checkout -b style/sass-checker
