@@ -7,11 +7,14 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
+    "sass": "sass ./src/sass/styles.scss ./src/css/styles.css",
+    "sass-w": "sass --watch ./src/sass/styles.scss ./src/css/styles.css",
     "test": "vitest run",
     "test-w": "vitest",
     "test-cover": "vitest run --coverage"
   },
   "devDependencies": {
+    "sass": "^1.100.0",
     "vitest": "^4.1.7"
   }
 }

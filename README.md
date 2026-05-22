@@ -87,7 +87,6 @@ Estructura de archivos decidida antes de programar:
 
 **Fase 2 — Interfaz visual:**
 
-- `docs`: update README with visual analysis
 - `chore`: install and configure sass
 - `feat`: add HTML base structure
 - `feat`: add app.js DOM renderer
