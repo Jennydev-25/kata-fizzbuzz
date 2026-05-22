@@ -67,6 +67,11 @@
     align-items: center;
     justify-content: center;
   }
+  
+   &__result--error {
+    color: #ff4444;
+  }
+  
 
   @media (min-width: $bp-tablet) {
     max-width: 460px;

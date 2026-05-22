@@ -8,8 +8,15 @@ const result = document.querySelector('.fizzbuzz-checker__result');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const number = Number(input.value);
-  result.textContent = checkNumber(number);
+  const value = input.value;
+  try {
+    const number = Number(value);
+    result.textContent = checkNumber(isNaN(number) || value === '' ? value : number);
+    result.classList.remove('fizzbuzz-checker__result--error');
+  } catch (error) {
+    result.textContent = error.message;
+    result.classList.add('fizzbuzz-checker__result--error');
+  }
 });
 
 // Sección 2: Secuencia completa
