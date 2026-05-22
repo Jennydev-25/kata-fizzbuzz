@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kata FizzBuzz</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Kata FizzBuzz</h1>
+      <p>Introduce un número y descubre si es Fizz, Buzz o FizzBuzz</p>
+    </header>
+
+    <main>
+
+      <!-- Sección 1: Prueba la función -->
+      <section class="fizzbuzz-checker">
+        <h2>Prueba la función</h2>
+        <form class="fizzbuzz-checker__form">
+          <input
+            class="fizzbuzz-checker__input"
+            type="number"
+            placeholder="Introduce un número"
+          />
+          <button class="fizzbuzz-checker__button" type="submit">
+            Comprobar
+          </button>
+        </form>
+        <div class="fizzbuzz-checker__result"></div>
+      </section>
+
+      <!-- Sección 2: Secuencia completa -->
+      <section class="fizzbuzz-sequence">
+        <h2>Secuencia del 1 al 100</h2>
+        <ol class="fizzbuzz-sequence__list"></ol>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Kata FizzBuzz · Bootcamp Factoría F5</p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
