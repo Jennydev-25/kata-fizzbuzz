@@ -18,5 +18,9 @@ const list = document.querySelector('.fizzbuzz-sequence__list');
 generateSequence().forEach((item, index) => {
   const li = document.createElement('li');
   li.textContent = `${index + 1} — ${item}`;
+  if (item === 'Fizz') li.classList.add('fizz');
+  else if (item === 'Buzz') li.classList.add('buzz');
+  else if (item === 'FizzBuzz') li.classList.add('fizzbuzz');
+  else li.classList.add('number');
   list.appendChild(li);
 });

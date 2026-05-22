@@ -1,0 +1,80 @@
+@use 'variables' as *;
+
+.fizzbuzz-sequence {
+  h2 {
+    color: $color-primary;
+    text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+
+    li {
+      border-radius: $border-radius;
+      padding: 0;
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: bold;
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.number {
+        background-color: $color-number-bg;
+        color: $color-number-text;
+      }
+
+      &.fizz {
+        background-color: $color-fizz-bg;
+        color: $color-fizz-text;
+      }
+
+      &.buzz {
+        background-color: $color-buzz-bg;
+        color: $color-buzz-text;
+      }
+
+      &.fizzbuzz {
+        background-color: $color-fizzbuzz-bg;
+        color: $color-fizzbuzz-text;
+      }
+    }
+  }
+
+  @media (min-width: $bp-tablet) {
+    &__list {
+      grid-template-columns: repeat(6, 1fr);
+
+      li {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  @media (min-width: $bp-desktop-sm) {
+    &__list {
+      grid-template-columns: repeat(8, 1fr);
+
+      li {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  @media (min-width: $bp-desktop) {
+    &__list {
+      grid-template-columns: repeat(10, 1fr);
+
+      li {
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
