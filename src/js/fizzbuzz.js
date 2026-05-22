@@ -1,4 +1,6 @@
 export function checkNumber(n) {
+  // El dato no es un número, lanza un error
+  if (typeof n !== 'number') throw new Error('El dato no es un número');
   // Divisible por 3 y 5, devuelve "FizzBuzz"
   if (n % 15 === 0) return 'FizzBuzz';
   // Divisible por 3, devuelve "Fizz"

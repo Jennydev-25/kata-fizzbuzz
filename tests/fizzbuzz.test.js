@@ -36,3 +36,8 @@ describe('FizzBuzz', () => {
     const result = checkNumber(n);
     expect(result).toBe(expected);
   });
+
+  // Escenario 5: El dato no es un número, debe lanzar un error
+  it('should throw an error when input is not a number', () => {
+    expect(() => checkNumber('hola')).toThrow('El dato no es un número');
+  });
