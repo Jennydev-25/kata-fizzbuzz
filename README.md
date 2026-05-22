@@ -53,11 +53,12 @@ Estructura de archivos decidida antes de programar:
 
 **Fase 1 — Lógica y tests:**
 
+- **`tests/`** → tests unitarios con Vitest
 - **`src/js/`** — lógica dividida por responsabilidad:
   - `fizzbuzz.js` → función `checkNumber()`, lógica core
   - `sequence.js` → generador de la secuencia 1-100
+- **`assets/imgs/`** — capturas del proyecto
 - **`main.js`** — entrada por consola
-- **`tests/`** → tests unitarios con Vitest
 
 **Fase 2 — Interfaz visual:**
 
@@ -80,10 +81,9 @@ Estructura de archivos decidida antes de programar:
 - `test`: add test for number divisible by 3 and 5 returns FizzBuzz
 - `test`: add test for number not divisible by 3 or 5 returns the number as string
 - `test`: add test for non-number input throws error
-- `feat`: implement checkNumber function
+- `docs`: add test explorer screenshot to README
 - `feat`: add sequence generator module
 - `feat`: add main.js console entry printing 1 to 100
-- `docs`: add test explorer screenshot to README
 
 **Fase 2 — Interfaz visual:**
 
@@ -112,7 +112,7 @@ Cinco escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 
 ## 📸 Test Explorer
 
-_Captura añadida al terminar la Fase 1._
+![Test Explorer](assets/imgs/test-explorer.png)
 
 ----------
 
