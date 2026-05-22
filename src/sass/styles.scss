@@ -17,3 +17,18 @@ $border-radius: 8px;
 $bp-tablet: 480px;
 $bp-desktop-sm: 768px;
 $bp-desktop: 1024px;
+
+// Reset y base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $color-bg;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 1rem;
+}
