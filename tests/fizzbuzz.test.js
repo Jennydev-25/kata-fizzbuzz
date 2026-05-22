@@ -20,3 +20,11 @@ describe('FizzBuzz', () => {
     const result = checkNumber(n);
     expect(result).toBe(expected);
   });
+
+  // Escenario 3: Número divisible por 3 y 5, resultado esperado "FizzBuzz"
+  it('should return FizzBuzz when number is divisible by 3 and 5', () => {
+    const n = 15;
+    const expected = 'FizzBuzz';
+    const result = checkNumber(n);
+    expect(result).toBe(expected);
+  });
