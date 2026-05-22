@@ -12,3 +12,11 @@ describe('FizzBuzz', () => {
   });
 
 });
+
+// Escenario 2: Número divisible por 5, resultado esperado "Buzz"
+  it('should return Buzz when number is divisible by 5', () => {
+    const n = 5;
+    const expected = 'Buzz';
+    const result = checkNumber(n);
+    expect(result).toBe(expected);
+  });
