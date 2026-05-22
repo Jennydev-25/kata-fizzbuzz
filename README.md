@@ -97,7 +97,7 @@ Estructura de archivos decidida antes de programar:
 - `style`: add checker section styles
 - `style`: add sequence section styles
 - `style`: add footer styles
-- `docs`: add final screenshot to README
+- `docs`: add final screenshot to READMEgit checkout -b style/sass-checker
 
 ----------
 
