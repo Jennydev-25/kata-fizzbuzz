@@ -109,6 +109,7 @@ Estructura de archivos decidida antes de programar:
 - `style`: add sequence section styles
 - `style`: add footer styles
 - `docs`: add final screenshot to README
+- `docs`: update README final 
 
 ----------
 
@@ -124,9 +125,7 @@ Cinco escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 | No divisible ni por 3 ni por 5 | `7` | `"7"` |
 | No es un número | `"hola"` | `Error` |
 
-----------
-
-## 📸 Test Explorer
+### 📸 Test Explorer
 
 ![Test Explorer](assets/imgs/test-explorer.png)
 
@@ -142,10 +141,10 @@ Cinco escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 
 - Git & GitHub
 - VS Code
-- HTML5
 - JavaScript ES Modules
-- SASS → CSS con metodología BEM
 - Vitest
+- HTML5
+- SASS → CSS con metodología BEM
 
 ----------
 
@@ -163,5 +162,11 @@ Cinco escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Vitest](https://vitest.dev/)
 - [SASS](https://sass-lang.com/)
+
+----------
+
+## 🚀 Demo en vivo
+
+👉 [Ver en GitHub Pages](https://jennydev-25.github.io/kata-fizzbuzz/)
 
 ----------
