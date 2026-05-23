@@ -92,6 +92,8 @@ Estructura de archivos decidida antes de programar:
 - `docs`: add test explorer screenshot to README
 - `feat`: add sequence generator module
 - `feat`: add main.js console entry printing 1 to 100
+- `refactor`: extract conditions to readable variables
+
 
 **Fase 2 — Interfaz visual:**
 

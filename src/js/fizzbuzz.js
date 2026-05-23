@@ -1,12 +1,12 @@
 export function checkNumber(n) {
-  // El dato no es un número, lanza un error
   if (typeof n !== 'number') throw new Error('El dato no es un número');
-  // Divisible por 3 y 5, devuelve "FizzBuzz"
-  if (n % 15 === 0) return 'FizzBuzz';
-  // Divisible por 3, devuelve "Fizz"
-  if (n % 3 === 0) return 'Fizz';
-  // Divisible por 5, devuelve "Buzz"
-  if (n % 5 === 0) return 'Buzz';
-  // No divisible por 3 ni por 5, devuelve el número como string
+
+  const isDivisibleByThreeAndFive = n % 15 === 0;
+  const isDivisibleByThree = n % 3 === 0;
+  const isDivisibleByFive = n % 5 === 0;
+
+  if (isDivisibleByThreeAndFive) return 'FizzBuzz';
+  if (isDivisibleByThree) return 'Fizz';
+  if (isDivisibleByFive) return 'Buzz';
   return String(n);
 }
