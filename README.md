@@ -25,7 +25,7 @@ Antes de escribir código analicé los escenarios del enunciado para identificar
 | Divisible por **3** | `"Fizz"` |
 | Divisible por **5** | `"Buzz"` |
 | Divisible por **3 y 5** | `"FizzBuzz"` |
-| No divisible ni por 3 ni por 5 | `"7"` |
+| No divisible ni por 3 ni por 5 | El número como string |
 | El dato no es un número | ❌ Lanza un `Error` |
 
 **Fase 2 — Análisis visual:**
